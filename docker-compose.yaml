@@ -1,0 +1,6 @@
+services:
+    node-app:
+      build: .
+      restart: unless-stopped
+      ports:
+        - "9090:8080"
